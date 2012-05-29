@@ -176,7 +176,7 @@ abstract class Site_Class
 
 		if (!$this->isModule())
 		{
-			$this->Page->registerCssFile('http://lib.genghishack.com/css/Base/Base_1.0.css');                     // global css common to all sites
+			$this->Page->registerCssFile('http://lib.genghishack.com/css/Base/Base_1.1.css');                     // global css common to all sites
 			$this->Page->registerCssFile('/src/css/site.css');                                    // site-specific css
 
 			$this->Page->registerJsFile ('http://lib.genghishack.com/vendor/jquery/jquery-1.7.1.min.js', '', false);                                      // jQuery
